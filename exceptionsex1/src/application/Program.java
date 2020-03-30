@@ -27,8 +27,9 @@ public class Program {
 			double withdrawLimit = sc.nextDouble();
 
 			Account account = new Account(number, name, balance, withdrawLimit);
+			
+			System.out.println();
 			System.out.println(account);
-
 			System.out.println();
 
 			System.out.print("Amount for withdraw: ");
