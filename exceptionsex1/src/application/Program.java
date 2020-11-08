@@ -34,9 +34,11 @@ public class Program {
 
 			System.out.print("Amount for withdraw: ");
 			account.withdraw(sc.nextDouble());
-		} catch (WithdrawException e) {
+		}
+		catch (WithdrawException e) {
 			System.out.println(e.getMessage());
-		} catch (RuntimeException e) {
+		}
+		catch (RuntimeException e) {
 			System.out.println("Runtime Error");
 		}
 
