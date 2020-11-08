@@ -12,7 +12,7 @@ public class ProgramOverrideAndFinal {
 		acc.withdraw(100);
 		System.out.println(acc.getBalance()); // Taxa de saque 5.0
 
-		Account sacc = new SavingsAccount(002, "Camilla", 1000.0, 0.02);
+		Account sacc = new SavingsAccount(002, "teste", 1000.0, 0.02);
 		sacc.withdraw(100);
 		System.out.println(sacc.getBalance()); // Taxa de saque 0.0
 		

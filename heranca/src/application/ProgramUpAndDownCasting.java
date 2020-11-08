@@ -9,7 +9,7 @@ public class ProgramUpAndDownCasting {
 	public static void main(String[] args) {
 		
 		Account acc = new Account(101, "Vinicius Solon", 0.0);
-		BusinessAccount bacc = new BusinessAccount(102, "Camilla Dias", 0.0, 1000.0);
+		BusinessAccount bacc = new BusinessAccount(102, "teste", 0.0, 1000.0);
 		
 		// UPCASTING
 		
