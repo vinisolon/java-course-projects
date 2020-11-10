@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		//Método basico de uso dos readers
+		//Metodo basico de uso dos readers
 		
 		String path = "C:\\Users\\Vini\\Desktop\\Dev\\Java\\file-reader&buffered-reader\\text.txt";
 		FileReader fr = null;

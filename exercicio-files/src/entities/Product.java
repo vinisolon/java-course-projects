@@ -4,9 +4,9 @@ public class Product {
 
 	private String name;
 	private Double price;
-	private Integer quantity;
+	private int quantity;
 
-	public Product(String name, Double price, Integer quantity) {
+	public Product(String name, Double price, int quantity) {
 		super();
 		this.name = name;
 		this.price = price;
@@ -29,11 +29,11 @@ public class Product {
 		this.price = price;
 	}
 
-	public Integer getQuantity() {
+	public int getQuantity() {
 		return quantity;
 	}
 
-	public void setQuantity(Integer quantity) {
+	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 
