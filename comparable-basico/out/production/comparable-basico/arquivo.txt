@@ -1,0 +1,6 @@
+Vinicius Solon,3400.00
+Willian B,1600.00
+Juliano Longo,6700.00
+Willian A,5800.00
+Ronaldo Santos,4600.00
+Alessandra Maria,3500.00
