@@ -14,7 +14,7 @@ public class Programa {
     public static void main(String[] args) {
 
         List<Funcionario> funcionarios = new ArrayList<>();
-        String caminhoArquivo = "src\\arquivo.txt";
+        String caminhoArquivo = "src\\arquivos\\arquivo.txt";
         String funcionarioLine;
 
         try (BufferedReader br = new BufferedReader(new FileReader(caminhoArquivo))) {
