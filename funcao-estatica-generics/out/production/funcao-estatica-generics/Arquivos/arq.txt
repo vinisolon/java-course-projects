@@ -1,0 +1,4 @@
+Computador,1990.00
+Celular,1245.90
+Televisão,2440.00
+Notebook,1870.00
