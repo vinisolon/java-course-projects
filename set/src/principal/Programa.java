@@ -83,8 +83,6 @@ public class Programa {
         pessoaTreeSet.add(new Pessoa("Nicolas Solon", "987654321", 10));
         pessoaTreeSet.add(new Pessoa("Erika Sartorato", "654987321", 43));
 
-        Pessoa pessoa = new Pessoa("Vinicius Solon", "123456789", 23);
-
         for (Pessoa p : pessoaTreeSet){
             System.out.println(p);
         }
