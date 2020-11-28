@@ -17,6 +17,11 @@ public class Programa {
         produtos.add(new Produto("Fone de ouvido", 99.99));
         produtos.add(new Produto("Mousepad", 119.90));
 
+        /**
+         * Predicate retorna true | false da expressão de parametro!
+         * Neste exemplo estamos comparando o valor do produto para impressão na tela
+         */
+
         //Implementação da interface em uma classe
         //produtos.removeIf(new ProdutoPredicate());
 
