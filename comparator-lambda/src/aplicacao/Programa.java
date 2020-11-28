@@ -17,6 +17,11 @@ public class Programa {
         produtos.add(new Produto("Televisão", 3200.00));
         produtos.add(new Produto("Cadeira Gamer", 799.99));
 
+        /**
+         * Comparator realiza comparações entre objetos!
+         * Neste exemplo estamos comparando os nomes para ordenação na lista
+         */
+
         System.out.println("\n**ANTES DA ORDENAÇÃO PELO NOME**");
         for (Produto produto : produtos){
             System.out.println(produto);
