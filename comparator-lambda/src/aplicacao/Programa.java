@@ -57,14 +57,5 @@ public class Programa {
         for (Produto produto : produtos){
             System.out.println(produto);
         }
-
-        List<Integer> numeros = new ArrayList<>();
-        Integer[] vetorNumeros = {10,5,9,4,7,3,2};
-        numeros.addAll(Arrays.asList(vetorNumeros));
-        numeros.sort(Comparator.comparing(n -> n));
-        System.out.println("\n**TESTE COM NUMEROS**");
-        for (Integer numero : numeros){
-            System.out.print(numero + ", ");
-        }
     }
 }
