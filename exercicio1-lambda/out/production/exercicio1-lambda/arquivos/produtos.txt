@@ -1,0 +1,6 @@
+Computador,2900.00
+Celular,1500.00
+Televisão,3400.00
+Headset,349.99
+Teclado Mêcanico,899.99
+SSD NVMe m.2,379.99
