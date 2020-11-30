@@ -21,18 +21,19 @@ public class Programa {
         produtos.add(new Produto("Fone de ouvido", 99.99));
         produtos.add(new Produto("Mousepad", 119.90));
 
-        //Produtos que as descrições comecem com 'C'
-        System.out.println(new ProdutoService().somaValoresComPredicate(produtos,
-                p -> p.getDescricao().charAt(0) == 'C'));
-
-        //Produtos que tenham 'm' ou 'M' nas descrições
-        System.out.println(new ProdutoService().somaValoresComPredicate(produtos,
-                p -> p.getDescricao().toUpperCase().contains("M")));
         //Produtos que os preços sejam menores que 1000
         System.out.println(new ProdutoService().somaValoresComPredicate(produtos,
                 p -> p.getPreco() < 1000.0));
 
-        //Produtos que os preços sejam menores que 1000 e as descrições contenham 'ou' ou 'OU'
+        //Produtos que a descrição começa com 'C'
+        System.out.println(new ProdutoService().somaValoresComPredicate(produtos,
+                p -> p.getDescricao().toUpperCase().charAt(0) == 'C'));
+
+        //Produtos que tenham 'M' na descrição
+        System.out.println(new ProdutoService().somaValoresComPredicate(produtos,
+                p -> p.getDescricao().toUpperCase().contains("M")));
+
+        //Produtos que o preço seja menor que 1000 e a descrição contenha 'OU'
         System.out.println(new ProdutoService().somaValoresComPredicate(produtos,
                 p -> p.getPreco() < 1000.0 && p.getDescricao().toUpperCase().contains("OU")));
     }
