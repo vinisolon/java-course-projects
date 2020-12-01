@@ -1,0 +1,6 @@
+Vinicius Solon,vini@email.com,1500.00
+Erika Sartorato,erika@email.com,3000.00
+Mauricio Ortiz,mauricio@email.com,2350.00
+Nicolas Romeiro,nicolas@email.com,1050.00
+Nikolas Cury,nikolas@email.com,1800.00
+Amanda x,amanda@email.com,1700.00
