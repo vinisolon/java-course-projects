@@ -18,9 +18,12 @@ public class Programa {
 
             stm.executeUpdate("UPDATE SELLER SET BASESALARY = 2500 WHERE DEPARTMENTID = 1");
 
-            /*int x = 0;
+            //força erro para exemplificação da transaction
+            /*
+            int x = 0;
             if(x > 0)
-                throw new SQLException("erro fake");*/
+                throw new SQLException("erro fake");
+            */
 
             stm.executeUpdate("UPDATE SELLER SET BASESALARY = 1800 WHERE DEPARTMENTID = 2");
             connection.commit();
